@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Neumorphism Login Card</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="form">
@@ -17,7 +18,11 @@
             </div>
             <div class="inputBox">
                 <label>Password</label>
-                <input type="text" name="" placeholder="********">
+                <input type="password" name="" placeholder="Password" id="myInput">
+                <span class="eye" onclick="myFunction()" >
+                    <i id="hide1" class="fa fa-eye"></i>
+                    <i id="hide2" class="fa fa-eye-slash"></i>
+                </span>
             </div>
             <div class="inputBox">
                 <input type="submit" name="" value="Sign In">
@@ -25,5 +30,6 @@
         </div>
         <p class="forget">Forget Password ? <a href="#">Click Here</a></p>
     </div>
+<script src="script.js"></script>
 </body>
 </html>
