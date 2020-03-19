@@ -90,3 +90,15 @@ body {
 .forget a {
     color: #ff0047;
 }
+
+.fa {
+    margin-left: 10px; 
+}
+
+.eye {
+    position: absolute;
+    margin-top: 10px;
+}
+#hide1 {
+    display: none;
+}
